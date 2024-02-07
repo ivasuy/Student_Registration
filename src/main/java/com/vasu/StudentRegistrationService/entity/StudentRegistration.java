@@ -30,6 +30,15 @@ public class StudentRegistration {
     @Column(name = "MEDICAL_BRANCH")
     private Boolean medicalBranch;
 
+    @Column(name = "CORE_MARKS")
+    private Float coreMarks;
+
+    @Column(name = "PHYSICS_MARKS")
+    private Float physicsMarks;
+
+    @Column(name = "OPTIONAL_MARKS")
+    private Float optionalMarks;
+
     @Column(name = "CALCULATED_PERCENTAGE")
-    private String calculatedPercentage;
+    private Float calculatedPercentage;
 }
